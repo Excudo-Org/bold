@@ -7,5 +7,14 @@ export default defineNuxtConfig({
     typeCheck: true,
     strict: true
   },
-  modules: ["@nuxt/eslint"]
+  modules: ["@nuxt/eslint"],
+
+  // https://eslint.nuxt.com
+  eslint: {
+    config: {
+      stylistic: {
+        quotes: 'single'
+      }
+    }
+  }
 })
