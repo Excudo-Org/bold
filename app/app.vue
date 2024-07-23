@@ -5,6 +5,7 @@
         <p>{{ message }} was loaded.</p>
       </template>
     </NuxtRouteAnnouncer>
-    <NuxtWelcome />
+    <NuxtLoadingIndicator />
+    <NuxtPage />
   </div>
 </template>
